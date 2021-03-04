@@ -1,0 +1,230 @@
+/* general */
+.no-mt-footer {
+	margin-top: 0 !important;
+}
+/* general */
+
+/* halaman about */
+.section-top-about {
+	padding-top: 200px;	
+}
+.backup-about {
+	background-color: #48B087;
+	border-top-right-radius: 100px;
+	border-bottom-left-radius:100px;
+	padding-bottom: 80px;
+}
+.sub-backup-about {
+	padding-top: 120px;
+	border-bottom: 1px solid rgba(225, 225, 225, 0.2);
+}
+.sub-first-about {
+	color: #8d97ad;
+	font-family: 'raleway';
+	text-transform: uppercase;
+	letter-spacing: 5.5px;
+	font-weight: bold;
+}
+.img-about {
+	border: 3.5px solid #fff;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.08);
+	border-radius: 15px;
+	margin-bottom: -150px;
+}
+.number-top {
+	font-size: 50px;
+	font-family: 'mont';
+	font-weight: bold;
+	color: #221e41;
+}
+.word-sub-about {
+	line-height: 2;font-weight: 100;
+}
+/* halaman about */
+
+/* halaman layanan */
+.title-service {
+	font-family: mont;
+	color: #221e41;
+	letter-spacing: 0.5px;
+	font-size: 18.5px;
+}
+.fsz-15 {
+	font-size: 15px !important;
+}
+/* halaman layanan */
+
+/* halaman portofolio */
+.lh-16 {
+	line-height: 1.6;
+}
+.item-categories{
+	border-radius: 12px !important;
+	border: 1px solid #ddd;
+	color: #221e41;
+	font-family: 'raleway';
+	font-weight: 600;
+	letter-spacing: 1.2px;
+	margin: 0px 18px;
+	padding: 15px 52px;
+	font-size: 16px;
+}
+.item-categories:hover {
+	color: #48B087;
+	transition: all 0.3s ease-in-out;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+	color: #48B087;
+	background-color: #fff;
+	box-shadow: 3px 7px 15px 0 rgb(34 30 65 / 7%);
+	border: 1px solid white;
+}
+/* halaman portofolio */
+
+/* halaman kontak-kami */
+.floatlabel {
+	position:relative;
+}
+.floatlabel input {
+	-webkit-appearance: none;
+	color:#333;
+	padding:10px 12px;
+}
+.floatlabel label.label {
+	position:absolute;
+	top:14px;
+	left:0px;
+	transition:all 0.2s ease-out;
+	background:#fff;
+	color:#999;
+	font-family: 'raleway';
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	cursor:text;
+}
+.floatlabel label.label.floatlabel-shift {
+	top:-14px;
+	left:0px;
+	padding:0px;
+	font-size:14px;
+	color:#999;
+}
+.floatlabel label.label.floatlabel-active {
+	color: #48AF86;
+}
+.form-control , .form-control:focus , .form-control:active {
+	padding: 27px !important;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	border-radius: 0;
+	box-shadow: none;
+	font-family: raleway;
+	padding-left: 0 !important;
+}
+
+/* halaman kontak kami - plugin select2 */
+.select2-container--default .select2-selection--multiple {
+	border: none;
+	border-bottom: 1px solid #ddd;
+	border-radius: 0;
+	box-shadow: none;
+	padding-left: 0 !important;
+	padding-top: 0 !important;
+	padding-bottom: 6px !important;
+}
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+	border: none !important;
+	outline: 0;
+}
+.select2-container--default .select2-search--inline .select2-search__field {
+	color: rgb(153, 153, 153);
+	font-family: raleway;
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	padding: 6px;
+	padding-left: 0 !important;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+	background: #48af86;
+	color: #fff;
+	font-family: 'raleway';
+	padding: 10px 18px;
+	border: none;
+	letter-spacing: 1.2px;
+	font-weight: 600;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove  {
+	color: #fff;
+	margin-right: 7.5px;
+}
+
+/* halaman kontak kami - range slider */
+.ui-widget.ui-widget-content {
+	border: 1px solid #ddd !important;
+}
+.ui-widget-header {
+	background: #48AF86 !important;
+}
+.ui-state-default, .ui-widget-content .ui-state-default {
+	border: none !important;
+	outline: none !important;
+	background: #48af86 !important;
+	border-radius: 100%;
+	width: 21px;
+	height: 21px;
+}
+.text-range {
+	font-family: 'raleway';
+    color: #999;
+    font-weight: 600;
+    letter-spacing: 0.9px;
+    font-size: 18px;
+    margin-right: 9px;
+}
+.input-range {
+	border:0;
+	color:#f6931f;
+	font-weight:bold;
+	font-size: 17px;
+}
+
+/* halaman kontak kami - select option */
+.select-form-c {
+	color: #999;
+    font-family: 'raleway';
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: text;
+    padding: 0 !important;
+}
+.btn-form {
+	border-radius: 7px;
+	font-size: 19px;
+}
+
+/* halaman kontak kami - chat whatsapp */
+.float{
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:25px;
+  background-color:#48af86;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  box-shadow: 2px 2px 3px rgba(72, 175, 134, 0.25);
+  z-index:100;
+}
+
+.my-float,.my-float:hover,
+.my-float:focus,.my-float:active{
+  margin-top:16px;
+  text-decoration: none;
+  color: #fff;
+}
+/* floating button whatsapp */
